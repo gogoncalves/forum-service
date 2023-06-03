@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 data class Comment (
     val content: String,
-    val author: User,
-    val publicationDate: LocalDateTime,
-    val article: Article
+    var author: User,
+    var publicationDate: LocalDateTime,
+    var article: Article
 )
