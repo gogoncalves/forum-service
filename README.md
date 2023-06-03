@@ -1,20 +1,20 @@
 <h1>Javalin Forum Service</h1>
-<p>Este é um serviço de fórum construído com o framework <strong>Javalin</strong>. Ele fornece uma API RESTful para interações em um fórum online.</p>
-<h2>Requisitos</h2>
-<p>Antes de utilizar este serviço, certifique-se de ter as seguintes dependências instaladas:</p>
+<p>This is a forum service built with the <strong>Javalin</strong> framework. It provides a RESTful API for interactions in an online forum.</p>
+<h2>Requirements</h2>
+<p>Before using this service, make sure you have the following dependencies installed:</p>
 <ul>
   <li><strong>Gradle</strong></li>
   <li><strong>Javalin</strong></li>
   <li><strong>Kmongo</strong></li>
   <li><strong>mysql-connector-java</strong></li>
 </ul>
-<h2>Como utilizar</h2>
-<p>Para utilizar este serviço, siga o passo abaixo:</p>
+<h2>How to Use</h2>
+<p>To use this service, follow the step below:</p>
 <ul>
-  <li>Clone o repositório em sua máquina:</li>
+  <li>Clone the repository to your machine:</li>
   <pre><code>git clone https://github.com/gogoncalves/forum-service</code></pre>
 </ul>
-<p>Após clonar o repositório, importe o projeto em sua IDE preferida como um projeto Gradle existente.</p>
-<p>Depois de importar o projeto, certifique-se de que todas as dependências necessárias estejam resolvidas. A IDE deve baixar automaticamente as dependências definidas no arquivo <strong>build.gradle.kts</strong>.</p>
-<p>Em seguida, você pode executar o serviço a partir do arquivo principal. Verifique se você tem todas as configurações adequadas para a execução do projeto, como as configurações do servidor e do banco de dados.</p>
-<p>Assim que o serviço estiver em execução, você poderá acessar a API RESTful por meio dos endpoints disponíveis, dependendo das funcionalidades implementadas no fórum.</p>
+<p>After cloning the repository, import the project into your preferred IDE as an existing Gradle project.</p>
+<p>Once you have imported the project, make sure that all the necessary dependencies are resolved. The IDE should automatically download the dependencies defined in the <strong>build.gradle.kts</strong> file.</p>
+<p>Next, you can run the service from the main file. Make sure you have all the appropriate configurations for running the project, such as server and database settings.</p>
+<p>Once the service is up and running, you can access the RESTful API through the available endpoints, depending on the implemented forum functionalities.</p>
