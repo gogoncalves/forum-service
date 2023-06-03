@@ -1,0 +1,3 @@
+
+rootProject.name = "forum-service"
+
