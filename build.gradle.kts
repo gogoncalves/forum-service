@@ -11,7 +11,12 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    implementation(kotlin("stdlib-jdk8"))
+
+    implementation("io.javalin:javalin:5.5.0")
+
+    implementation("mysql:mysql-connector-java:8.0.28")
+    implementation("org.litote.kmongo:kmongo:4.2.1")
 }
 
 tasks.test {
